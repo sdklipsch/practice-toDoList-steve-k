@@ -1,0 +1,66 @@
+@import url('https://googleapis.com');
+
+h1 {
+  font-family: 'Playwrite It Trad', cursive;
+  font-weight: 400;
+  text-align: center;
+  font-size: 300%;
+  color: #06A8F9;
+
+}
+
+body {
+  font-family: 'Megrin', cursive;
+  background-color: #034D72;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.list-container {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    font-size: 125%;
+    width: 600px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #92D9FC;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+li {
+    background-color: #e8f0fe;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+    justify-content: center;
+}
+
+
+ul.emoji-list li::marker {
+  content: "🌟 ";
+  font-size: 400%;
+}
+
+
+
+li:hover{
+  transform: translateY(-4px) scale(1.2);
+  text-decoration: underline;
+  cursor: pointer;
+}
